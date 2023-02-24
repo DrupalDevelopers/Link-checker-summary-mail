@@ -1,0 +1,12 @@
+name: 'Link checker summary mail'
+description: 'Sends link checker summary mails in certain intervals.'
+type: module
+core_version_requirement: ^9 || ^10
+configure: linkchecker_summary_mail.settings
+dependencies:
+  - linkchecker:linkchecker
+
+# Information added by Drupal.org packaging script on 2022-08-19
+version: '2.0.0-beta2'
+project: 'linkchecker_summary_mail'
+datestamp: 1660892292
